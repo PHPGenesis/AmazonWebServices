@@ -1,0 +1,17 @@
+{
+    "name": "phpgenesis/aws",
+    "description": "AWS SDK for PHPGenesis",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "phpgenesis/common": "self.version",
+        "aws/aws-sdk-php": "^3.284"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPGenesis\\Services\\AmazonWebServices\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
