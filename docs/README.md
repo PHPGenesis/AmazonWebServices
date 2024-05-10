@@ -1,3 +1,7 @@
+---
+title: Amazon Web Services
+---
+
 # PHPGenesis/AWS
 
 The PHPGenesis AWS Package is an abstraction layer on top of the AWS PHP SDK. Specifically, it provides a simple API for interacting
@@ -11,8 +15,13 @@ To install the AWS package, you can use Composer:
 composer require phpgenesis/aws
 ```
 
+### Configuration
+
+- [AwsConfig](./Configuration.md)
+
+
 ### Usage
 
 The following AWS Services are available in this package:
 
-- SimpleEmailService
+- [SimpleEmailService](./Services/SimpleEmailService/README.md)
